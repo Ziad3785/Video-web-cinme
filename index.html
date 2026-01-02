@@ -3,24 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>أكثر من 30 فيلم أكشن أجنبي كامل على يوتيوب 2026 💥🔥</title>
+    <title>مكتبة أفلام كاملة على يوتيوب 2026 🔥❤️😂</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
+
     <header>
-        <h1>أقوى أفلام أكشن أجنبية كاملة على يوتيوب (أكبر قائمة متاحة 2026) 💥🔥</h1>
-        <div class="search-box">
-            <input type="text" id="search" placeholder="ابحث بالاسم أو النجم (Statham, Chan, Adkins)...">
-        </div>
+        <h1>مكتبة أفلامي الكاملة على يوتيوب 2026</h1>
+        <p>اختر القسم اللي نفسك فيه واستمتع 🎬🍿</p>
     </header>
 
-    <div class="container" id="moviesContainer"></div>
+    <!-- التبويبات -->
+    <div class="tabs">
+        <button class="tab-button active" data-tab="action">أكشن أجنبي 💥</button>
+        <button class="tab-button" data-tab="comedy">كوميدي 😂</button>
+        <button class="tab-button" data-tab="romance">رومانسي ❤️</button>
+    </div>
+
+    <!-- حقل البحث العام -->
+    <div class="search-box">
+        <input type="text" id="globalSearch" placeholder="ابحث في كل الأفلام...">
+    </div>
+
+    <!-- حاوية الأفلام -->
+    <div class="container" id="moviesContainer">
+        <!-- الأفلام هتتحمل هنا حسب التب المختار -->
+    </div>
 
     <footer>
-        <p>أكثر من 30 فيلم أكشن أجنبي كامل مجاناً (من قنوات مرخصة) - لو الفيديو اتشال، ابحث عنه في القنوات دي! 🚀</p>
+        <p>كل الأفلام كاملة ومتاحة مجاناً على يوتيوب (حسب التوافر في 2026) 🚀</p>
     </footer>
 
-    <script src="script.js"></script>
+    <!-- تحميل ملفات الجافاسكريبت -->
+    <script src="actionMovies.js"></script>     <!-- غير الاسم لو مختلف (مثلاً script.js) -->
+    <script src="comedyMovies.js"></script>
+    <script src="romanticMovies.js"></script>
+    <script src="main.js"></script>             <!-- الكود الرئيسي للتحكم -->
+
 </body>
-                              </html>
+    </html>
